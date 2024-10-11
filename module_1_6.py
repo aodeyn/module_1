@@ -1,0 +1,14 @@
+my_dict={'Igor':2000,'Masha':2001,'Andrey':1999,'Sergey':1995}
+print(my_dict)
+print(my_dict['Masha'],'г.')
+print(my_dict.get('Irina'))
+my_dict.update({'Sasha':2003,
+               'Oleg':1997})
+print(my_dict.pop('Andrey'))
+print(my_dict)
+my_set={1,2,3,3,4,5,7,True,"String",(5,6,7,8,)}
+print(my_set)
+my_set.add(34)
+my_set.add(28)
+my_set.remove(3)
+print(my_set)
